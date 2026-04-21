@@ -1,71 +1,112 @@
-# Career-Ops Profile Configuration
-# Copy this file to config/profile.yml and fill in your details.
-# This is the single source of truth for your personal data across all modes.
+# ============================================================
+# CAREER-OPS PROFILE — Rishi Poudel
+# ============================================================
 
-candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
-  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
-  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
-  # The ID starts with "D" and is 11 characters long.
-  # canva_resume_design_id: "DAxxxxxxxxx"
+name: Rishi Poudel
+location: Australia
+email: rishipoudel00@gmail.com
+phone: +61452280457
 
-target_roles:
-  # Your North Star roles — what you're optimizing for
-  primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
-  # Archetypes help the evaluation system score fit
-  archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
-      level: "Senior"
-      fit: "secondary"
-    - name: "Solutions Architect"
-      level: "Mid-Senior"
-      fit: "adjacent"
+# --- ARCHETYPES (roles you're targeting) ---
+archetypes:
+  - IT Support / ICT Coordinator
+  - Data Analyst
+  - Business Analyst
+  - Technical Project Coordinator
 
-narrative:
-  # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
-  # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
-  # Your top 3-5 superpowers
-  superpowers:
-    - "End-to-end ML pipelines"
-    - "Fast prototyping (idea to prod in 2 weeks)"
-    - "Cross-functional communication"
-  # Proof points — projects, articles, case studies with measurable impact
-  proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
-  # Optional: dashboard/demo URL with credentials
-  # dashboard:
-  #   url: "https://janesmith.dev/demo"
-  #   password: "demo-2026"
+# --- CAREER SUMMARY ---
+summary: |
+  IT professional and Master of Business Analytics candidate (UTS, 2025)
+  with hands-on experience as a sole technical lead, data analyst, and
+  community project leader. Proven ability to bridge messy data and
+  useful business tools. Comfortable across the full stack from hardware
+  troubleshooting to Python automation and Power BI dashboards.
 
-compensation:
-  target_range: "$150K-200K"     # Your target total comp
-  currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+# --- EXPERIENCE & PROOF POINTS ---
+experience:
+  - role: IT Project Coordinator
+    company: Maakre Transport
+    period: Oct 2024 – Present
+    proof_points:
+      - Sole technical lead managing all software projects and TMS development
+      - Moved manual reporting to real-time Power BI dashboards
+      - Built digital driver toolkit improving operational quality
+      - Designed automated systems end-to-end as the only technical team member
 
-location:
-  country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
-  visa_status: "No sponsorship needed"
-  # For remote roles outside your country:
-  # onsite_availability: "1 week/month in any city"
+  - role: Junior Account Officer
+    company: Sani Securities Company Limited
+    period: Nov 2020 – Jan 2023
+    proof_points:
+      - Maintained 100% data accuracy across financial accounts
+      - Coordinated complex billing and reconciliation using financial software
+      - Managed digital records to strict internal audit standards
+
+  - role: Team Lead
+    company: Yatri (Tourist Guide Matching Platform)
+    period: Dec 2018 – Jan 2020
+    proof_points:
+      - Won National Hult Prize 2019 at Tribhuvan University
+      - Designed platform connecting tourists and guides, focusing on UX
+
+# --- EDUCATION ---
+education:
+  - degree: Master of Business Analytics (Data Major)
+    institution: University of Technology Sydney (UTS)
+    year: 2025
+  - degree: Bachelor of Business Administration (Finance Major)
+    institution: Tribhuvan University
+    year: 2021
+
+# --- TECHNICAL SKILLS ---
+skills:
+  technical:
+    - Python (NumPy, Pandas)
+    - SQL
+    - Power BI
+    - Excel (Advanced)
+    - Tableau
+    - SAS
+    - Claude Code
+    - Microsoft 365 / Google Workspace
+    - Hardware diagnostics
+    - Network troubleshooting (basic)
+  business:
+    - Xero (Certified Advisor)
+    - Digital Marketing (Google certified)
+    - Ticketing Systems
+
+# --- WHAT I WANT TO AVOID ---
+avoid:
+  - Purely administrative roles with no technical component
+  - Roles with no data or analytical work
+  - Roles outside Sydney (unless remote)
+
+# --- SALARY EXPECTATIONS ---
+salary:
+  min: 70000
+  max: 95000
+  currency: AUD
+  note: Open to negotiation based on role scope and growth opportunity
+
+# --- STAR STORIES (for interview prep) ---
+star_stories:
+  - title: Automation at Maakre Transport
+    situation: Manual reporting was slow and error-prone for a growing transport company
+    task: Build a real-time dashboard as the sole technical team member
+    action: Designed and deployed Power BI dashboards connected to live data sources
+    result: Eliminated manual reporting, gave management real-time visibility
+    reflection: Learned to bridge the gap between messy operational data and useful tools
+
+  - title: Hult Prize Win — Yatri Platform
+    situation: Tourism sector lacked a reliable guide-matching platform in Nepal
+    task: Lead a team to design a viable social enterprise solution
+    action: Conducted market research, designed UX, pitched at national level
+    result: Won National Hult Prize 2019
+    reflection: Validated that user-centred design beats feature-heavy thinking
+
+  - title: Community Impact — Rotaract
+    situation: Remote communities in Eastern Nepal lacked health and education access
+    task: Lead 50+ projects over 6 years including health clinics and STEAM programs
+    action: Coordinated volunteers, secured resources, managed logistics
+    result: Won district award; delivered scholarship program and free health clinic
+    reflection: Large-scale impact is achievable with structured project management
